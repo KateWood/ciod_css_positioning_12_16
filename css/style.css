@@ -1,0 +1,25 @@
+/*=============================
+General Styles
+=============================*/
+
+body {
+    margin: 10px;
+}
+
+/*here we are targeting the immediate children of body that are nav elements*/
+body > nav {
+    border: 1px solid #CCDCD0;
+    background: #F3FAF5;
+    margin: 10px;
+    position: absolute;
+    top: 100px;
+}
+
+/*this is targeting ul's that are descendants of nav and li's that are descendents of those ul's*/
+body > nav ul li {
+    display: inline-block;
+}
+
+body > nav ul li a {
+    text-decoration: none;
+}
